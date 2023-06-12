@@ -35,5 +35,6 @@ public class EjemploRepositorio {
         System.out.println("########## Eliminar");
         repo.eliminar(2);
         repo.listar().forEach(System.out::println);
+        System.out.println("Total de registros : " + repo.total());
     }
 }
